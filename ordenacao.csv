@@ -1,0 +1,7 @@
+algoritmo,M,tempo_s,repeticoes
+insertion sort,10000,1.092165,3
+merge sort,10000,0.011063,3
+sorted() Python,10000,0.000671,3
+insertion sort,100000,123.368439,1
+merge sort,100000,0.139021,3
+sorted() Python,100000,0.007571,3

@@ -1,0 +1,5 @@
+N = 100000
+  Fase 1 (lista):         6.10 MiB
+  Fase 3 (tabela hash):  12.68 MiB
+  itens=100000 baldes=262144 fator_carga=0.381 ocupados=83247 em_colisao=16753 maior_cadeia=6 rehashes=14
+  baldes ocupados: medido 83247, previsto (dispersão uniforme) 83137

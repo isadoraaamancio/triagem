@@ -1,0 +1,19 @@
+Python 3.12.13 em macOS-26.6-arm64-arm-64bit
+
+=== Experimento A: mesma carga, N variando ===
+N=  10000 Fase 1: populando... 0.52s; executando 20000 ops... 0.86s (erros tratados: 203)
+N=  10000 Fase 3: populando... 0.02s; executando 20000 ops... 0.05s (erros tratados: 203)
+N=  10000 ordem de chamada idêntica nas duas fases (6102 chamadas)
+N= 100000 Fase 1: populando... 53.13s; executando 20000 ops... 7.72s (erros tratados: 21)
+N= 100000 Fase 3: populando... 0.37s; executando 20000 ops... 0.06s (erros tratados: 21)
+N= 100000 ordem de chamada idêntica nas duas fases (6157 chamadas)
+
+=== Experimento B: N fixo, K (tamanho da fila) variando ===
+Fase 1 K=   100: R4 mediana      5.17 µs
+Fase 1 K=  1000: R4 mediana     55.17 µs
+Fase 1 K= 10000: R4 mediana    574.48 µs
+Fase 3 K=   100: R4 mediana      2.17 µs
+Fase 3 K=  1000: R4 mediana      2.83 µs
+Fase 3 K= 10000: R4 mediana      3.42 µs
+
+resultados gravados em /Users/brumur/Projects/Problema 1 - Triagem no Pronto Atendimento/experimentos/resultados/operacoes.csv

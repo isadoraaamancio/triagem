@@ -1,0 +1,43 @@
+experimento,fase,N,K,operacao,chamadas,media_us,mediana_us
+A,Fase 1,10000,~300,R1 cadastrar,10000,51.892,50.896
+A,Fase 1,10000,~300,R2 buscar_cadastro,5922,61.474,63.25
+A,Fase 1,10000,~300,R3 dar_entrada,7068,55.831,55.792
+A,Fase 1,10000,~300,R4 chamar_proximo,6102,13.696,13.459
+A,Fase 1,10000,~300,R5 desistir,705,2.539,2.459
+A,Fase 1,10000,~300,popular (N x R1) [s],10000,0.52,
+A,Fase 3,10000,~300,R1 cadastrar,10000,2.348,1.125
+A,Fase 3,10000,~300,R2 buscar_cadastro,5922,1.039,1.041
+A,Fase 3,10000,~300,R3 dar_entrada,7068,3.884,3.792
+A,Fase 3,10000,~300,R4 chamar_proximo,6102,2.736,2.583
+A,Fase 3,10000,~300,R5 desistir,705,1.254,1.25
+A,Fase 3,10000,~300,popular (N x R1) [s],10000,0.024,
+A,Fase 1,100000,~300,R1 cadastrar,100000,530.942,524.542
+A,Fase 1,100000,~300,R2 buscar_cadastro,5989,626.999,653.083
+A,Fase 1,100000,~300,R3 dar_entrada,7128,537.601,535.021
+A,Fase 1,100000,~300,R4 chamar_proximo,6157,18.682,14.459
+A,Fase 1,100000,~300,R5 desistir,705,3.628,3.292
+A,Fase 1,100000,~300,popular (N x R1) [s],100000,53.133,
+A,Fase 3,100000,~300,R1 cadastrar,100000,3.616,1.208
+A,Fase 3,100000,~300,R2 buscar_cadastro,5989,1.919,1.25
+A,Fase 3,100000,~300,R3 dar_entrada,7128,4.22,4.041
+A,Fase 3,100000,~300,R4 chamar_proximo,6157,2.925,2.584
+A,Fase 3,100000,~300,R5 desistir,705,1.314,1.25
+A,Fase 3,100000,~300,popular (N x R1) [s],100000,0.367,
+B,Fase 1,10000,100,R4 chamar_proximo,200,5.839,5.167
+B,Fase 1,10000,100,R3 dar_entrada,200,59.411,63.584
+B,Fase 1,10000,100,R5 desistir,100,0.905,0.5
+B,Fase 1,10000,1000,R4 chamar_proximo,200,55.941,55.166
+B,Fase 1,10000,1000,R3 dar_entrada,200,73.774,73.0
+B,Fase 1,10000,1000,R5 desistir,200,9.583,10.062
+B,Fase 1,10000,10000,R4 chamar_proximo,200,567.172,574.48
+B,Fase 1,10000,10000,R3 dar_entrada,200,284.959,286.291
+B,Fase 1,10000,10000,R5 desistir,200,119.893,116.624
+B,Fase 3,10000,100,R4 chamar_proximo,200,2.304,2.167
+B,Fase 3,10000,100,R3 dar_entrada,200,3.438,3.375
+B,Fase 3,10000,100,R5 desistir,100,1.326,1.125
+B,Fase 3,10000,1000,R4 chamar_proximo,200,3.096,2.833
+B,Fase 3,10000,1000,R3 dar_entrada,200,3.289,3.25
+B,Fase 3,10000,1000,R5 desistir,200,1.133,1.084
+B,Fase 3,10000,10000,R4 chamar_proximo,200,3.502,3.416
+B,Fase 3,10000,10000,R3 dar_entrada,200,3.435,3.375
+B,Fase 3,10000,10000,R5 desistir,200,1.162,1.166

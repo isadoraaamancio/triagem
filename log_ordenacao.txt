@@ -1,0 +1,19 @@
+
+M = 10000: espera min=0 max=2935 média=418.3 valores distintos=1111
+  insertion sort  ...     1.0922 s (melhor de 3)
+  merge sort      ...     0.0111 s (melhor de 3)
+  sorted() Python ...     0.0007 s (melhor de 3)
+  saídas idênticas às de sorted() (mesma ordem, inclusive nos empates)
+
+M = 100000: espera min=0 max=6657 média=1105.7 valores distintos=2505
+  insertion sort  ...   123.3684 s (melhor de 1)
+  merge sort      ...     0.1390 s (melhor de 3)
+  sorted() Python ...     0.0076 s (melhor de 3)
+  saídas idênticas às de sorted() (mesma ordem, inclusive nos empates)
+
+resultados gravados em /Users/brumur/Projects/Problema 1 - Triagem no Pronto Atendimento/experimentos/resultados/ordenacao.csv
+
+Razão de tempo M=100000 / M=10000:
+  insertion sort      113.0x
+  merge sort           12.6x
+  sorted() Python      11.3x
